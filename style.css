@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    margin-bottom: 20px;
+    color: blueviolet;
+    font-family: monospace;
+}
+p{
+    color: rgb(10, 0, 8);
+    background-color: rgb(81, 186, 224);
+    height: 150px;
+    border: 1px solid rgb(246, 40, 160);
+    font-family:  monospace;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.row{
+    width: 100%;
+}
+@media screen and(min-width:992px){
+    .col-lg-4{
+        float: left;
+        border: 1px solid rgb(234, 25, 175);
+    }
+
+
+}
+@media screen and (min-width:768px) and (max-width:991px){
+     .col-md-4{
+   width: 33%; }
