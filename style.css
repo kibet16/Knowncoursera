@@ -13,8 +13,8 @@ p{
     border: 1px solid rgb(246, 40, 160);
     font-family:  monospace;
     font-weight: bolder;
-    letter-spacing: 1.5px;
-    width: 90%;
+    letter-spacing:0px;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     
@@ -25,7 +25,7 @@ p{
 @media screen, (min-width:992px){
     .col-lg-4{
         float: left;
-        border: 1px solid rgb(234, 25, 175);
+        border: none;
     }
 
 }
